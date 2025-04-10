@@ -1,0 +1,20 @@
+{
+	"name": "linkpreview-api",
+	"version": "1.0.0",
+	"description": "Link preview API using Cloudflare Workers",
+	"main": "src/index.ts",
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy",
+		"check": "npx @biomejs/biome format --write ."
+	},
+	"dependencies": {
+		"hono": "^4.7.6"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@cloudflare/workers-types": "^4.20250410.0",
+		"typescript": "^5.8.3",
+		"wrangler": "^4.9.1"
+	}
+}
